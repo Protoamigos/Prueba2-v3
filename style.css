@@ -1,0 +1,67 @@
+.btn.btn-outline-light{
+    width: 54%;
+}
+
+.img-logo{
+    width: 45px;
+}
+
+.claseTitulo{
+    padding: 2%;
+    text-align: center;
+    color:darkred;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+    margin:20px;
+}
+body{
+    background-color: rgb(236, 223, 171);
+}
+.precio{
+    color:rgb(239, 150, 42)
+}
+.formulario1{
+    margin: auto;
+    width: max-content;
+    text-align: center;
+}
+.card-img-filter{
+    filter: brightness(0.5);
+}
+
+.card {
+    transition-duration: 0.6s;
+    clip-path: polygon(
+        50% 0,
+        100% 0,
+        100% 50%,
+        100% 100%,
+        50% 100%,
+        0 100%,
+        0 50%,
+        0 0
+    );
+}
+
+.card-effect:hover .card{
+    clip-path: polygon(
+        50% 0, 
+        50% 0, 
+        100% 50%,
+        100% 50%, 
+        50% 100%,
+        50% 100%, 
+        0 50%,
+        0 50%
+        ); 
+}
+
+.card-img-overlay {
+    transition-duration: 0.6s;
+}
+
+
+.card-effect:hover .card-img-overlay{
+    transform: scale(0.9);
+}
